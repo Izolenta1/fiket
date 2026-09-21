@@ -1,0 +1,1 @@
+export { CommentLike } from "./ui/CommentLike";

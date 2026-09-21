@@ -1,0 +1,1 @@
+export { FullWidthBanner } from "./ui/FullWidthBanner";

@@ -1,0 +1,1 @@
+export { CookieNotification } from "./ui/CookieNotification";

@@ -1,0 +1,56 @@
+/* Ползунок */
+.simplebar-scrollbar:before {
+    left: 0 !important;
+    right: 0 !important;
+    margin-inline: auto !important;
+
+    background-color: var(--surface_secondary) !important; /* Цвет бегунка */
+    opacity: 1 !important;
+
+    width: 1.1vw !important;
+    border-radius: 3.3vw !important;
+}
+
+/* Трек */
+.simplebar-track.simplebar-vertical {
+    background-color: var(--surface_blure) !important; /* Цвет фона трека */
+
+    border-radius: 3.3vw !important;
+    width: 2.2vw !important;
+}
+
+.simplebar-scrollable-y {
+    padding-right: 3.3vw !important;
+}
+
+@media (width >= 700px) {
+    .simplebar-scrollbar:before {
+        width: 0.86vw !important;
+        border-radius: 1.71vw !important;
+    }
+
+    .simplebar-track.simplebar-vertical {
+        width: 1.43vw !important;
+        border-radius: 1.71vw !important;
+    }
+
+    .simplebar-scrollable-y {
+        padding-right: 2.29vw !important;
+    }
+}
+
+@media (width >= 1200px) {
+    .simplebar-scrollbar:before {
+        width: 8px !important;
+        border-radius: 12px !important;
+    }
+
+    .simplebar-track.simplebar-vertical {
+        border-radius: 12px !important;
+        width: 12px !important;
+    }
+
+    .simplebar-scrollable-y {
+        padding-right: 20px !important;
+    }
+}

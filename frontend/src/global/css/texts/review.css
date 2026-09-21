@@ -1,0 +1,33 @@
+.review_bold {
+	font-feature-settings: 'liga' off, 'clig' off;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+
+	font-size: 7.7vw;
+	line-height: 8.8vw;
+}
+
+@media (width >= 700px) {
+	.review_bold {
+		font-feature-settings: 'liga' off, 'clig' off;
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 700;
+
+		font-size: 4vw;
+		line-height: 4.57vw;
+	}
+}
+
+@media (width >= 1200px) {
+	.review_bold {
+		font-feature-settings: 'liga' off, 'clig' off;
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 700;
+
+		font-size: 28px;
+		line-height: 32px;
+	}
+}

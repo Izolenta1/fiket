@@ -1,0 +1,101 @@
+.label_l1 {
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+
+    font-size: 6.6vw;
+    line-height: 8.3vw;
+}
+
+@media (width >= 700px) {
+    .label_l1 {
+        font-feature-settings: 'liga' off, 'clig' off;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+
+		font-size: 4.86vw;
+		line-height: 5.71vw;
+    }
+}
+
+@media (width >= 1200px) {
+    .label_l1 {
+        font-feature-settings: 'liga' off, 'clig' off;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+
+		font-size: 34px;
+		line-height: 40px;
+    }
+}
+
+.label_l2 {
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+
+    font-size: 5.5vw;
+    line-height: 6.6vw;
+}
+
+@media (width >= 700px) {
+    .label_l2 {
+        font-feature-settings: 'liga' off, 'clig' off;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+
+		font-size: 4.57vw;
+		line-height: 5.71vw;
+    }
+}
+
+@media (width >= 1200px) {
+    .label_l2 {
+        font-feature-settings: 'liga' off, 'clig' off;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+
+		font-size: 32px;
+		line-height: 40px;
+    }
+}
+
+.label_l3 {
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+
+    font-size: 4.4vw;
+    line-height: 5.5vw;
+}
+
+@media (width >= 700px) {
+    .label_l3 {
+        font-feature-settings: 'liga' off, 'clig' off;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+
+		font-size: 2.86vw;
+		line-height: 3.43vw;
+    }
+}
+
+@media (width >= 1200px) {
+    .label_l3 {
+        font-feature-settings: 'liga' off, 'clig' off;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+
+		font-size: 24px;
+		line-height: 28px;
+    }
+}

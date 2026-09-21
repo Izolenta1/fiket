@@ -1,0 +1,1 @@
+export { ProfileComicsContent } from "./ui/ProfileComicsContent";

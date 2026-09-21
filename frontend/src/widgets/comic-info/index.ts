@@ -1,0 +1,1 @@
+export { ComicInfoBlock } from "./ui/ComicInfoBlock";

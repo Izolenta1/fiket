@@ -1,0 +1,63 @@
+.addiction_regular {
+	font-feature-settings: 'liga' off, 'clig' off;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+
+	font-size: 3.8vw;
+	line-height: 5.5vw;
+}
+
+.addiction_bold {
+	font-feature-settings: 'liga' off, 'clig' off;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+
+	font-size: 3.8vw;
+	line-height: 5.5vw;
+}
+
+@media (width >= 700px) {
+	.addiction_regular {
+		font-feature-settings: 'liga' off, 'clig' off;
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 400;
+
+		font-size: 4vw;
+		line-height: 4.57vw;
+	}
+
+	.addiction_bold {
+		font-feature-settings: 'liga' off, 'clig' off;
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 700;
+
+		font-size: 4vw;
+		line-height: 4.57vw;
+	}
+}
+
+@media (width >= 1200px) {
+	.addiction_regular {
+		font-feature-settings: 'liga' off, 'clig' off;
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 400;
+
+		font-size: 28px;
+		line-height: 32px;
+	}
+
+	.addiction_bold {
+		font-feature-settings: 'liga' off, 'clig' off;
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 700;
+
+		font-size: 28px;
+		line-height: 32px;
+	}
+}

@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@import "./utilities.css";
+@import "./texts/addiction.css";
+@import "./texts/breadcrumbs.css";
+@import "./texts/button.css";
+@import "./texts/caption.css";
+@import "./texts/collapse.css";
+@import "./texts/comment.css";
+@import "./texts/decor.css";
+@import "./texts/footer.css";
+@import "./texts/label.css";
+@import "./texts/input.css";
+@import "./texts/num.css";
+@import "./texts/review.css";
+@import "./texts/subheader.css";
+@import "./texts/widget.css";
+@import "./animations.css";
+@import "./scrollbar.css";
+@import "./calendar.css";
+
+:root {
+	--surface_body: #030c11;
+	--surface_secondary: #0b1a21;
+	--surface_container: #0b1a2166;
+	--surface_blure: #030c11cc;
+
+	--border_default: #ffffff1a;
+	--border_hard: #ffffff33;
+
+	--texticon_base_header: #ffffff;
+	--texticon_base_subheader: #ffffffcc;
+	--texticon_base_default: #ffffff99;
+	--texticon_base_unactive: #ffffff33;
+	--texticon_base_accent: #f8bf21;
+	--texticon_base_invert: #0b1a21;
+	--texticon_base_warning: #ef2b3b;
+	--texticon_base_approved: #22c55e;
+	--texticon_profile: #0cf0bb99;
+
+	--decor_oreol: #0cf0bb0d;
+
+	--accent_turquoise_grad: linear-gradient(91deg, #15c59a 0%, #26bba5 41%, #31adb7 68.5%, #17c6bb 100%);
+}
+
+@theme {
+	--color-surface_body: var(--surface_body);
+	--color-surface_secondary: var(--surface_secondary);
+	--color-surface_container: var(--surface_container);
+	--color-surface_blure: var(--surface_blure);
+
+	--color-border_default: var(--border_default);
+	--color-border_hard: var(--border_hard);
+
+	--color-texticon_base_header: var(--texticon_base_header);
+	--color-texticon_base_subheader: var(--texticon_base_subheader);
+	--color-texticon_base_default: var(--texticon_base_default);
+	--color-texticon_base_unactive: var(--texticon_base_unactive);
+	--color-texticon_base_accent: var(--texticon_base_accent);
+	--color-texticon_base_invert: var(--texticon_base_invert);
+	--color-texticon_base_warning: var(--texticon_base_warning);
+	--color-texticon_base_approved: var(--texticon_base_approved);
+	--color-texticon_profile: var(--texticon_profile);
+
+	--color-decor_oreol: var(--decor_oreol);
+
+	--breakpoint-*: initial;
+	--breakpoint-bp480px: 480px;
+	--breakpoint-bp500px: 500px;
+	--breakpoint-bp600px: 600px;
+	--breakpoint-bp700px: 700px;
+	--breakpoint-bp900px: 900px;
+	--breakpoint-bp1080px: 1080px;
+	--breakpoint-bp1200px: 1200px;
+	--breakpoint-bp1920px: 1920px;
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url('/fonts/Inter.woff2') format("woff2");
+}

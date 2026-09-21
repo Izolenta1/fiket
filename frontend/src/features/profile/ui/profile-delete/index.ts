@@ -1,0 +1,1 @@
+export { ProfileDelete } from "./ui/ProfileDelete";

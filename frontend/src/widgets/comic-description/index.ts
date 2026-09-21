@@ -1,0 +1,1 @@
+export { ComicDescription } from "./ui/ComicDescription";

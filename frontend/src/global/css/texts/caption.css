@@ -1,0 +1,63 @@
+.caption_regular {
+	font-feature-settings: 'liga' off, 'clig' off;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+
+	font-size: 3.3vw;
+	line-height: 4.4vw;
+}
+
+.caption_bold {
+	font-feature-settings: 'liga' off, 'clig' off;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+
+	font-size: 3.3vw;
+	line-height: 4.4vw;
+}
+
+@media (width >= 700px) {
+	.caption_regular {
+		font-feature-settings: 'liga' off, 'clig' off;
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 400;
+
+		font-size: 2.29vw;
+		line-height: 2.86vw;
+	}
+
+	.caption_bold {
+		font-feature-settings: 'liga' off, 'clig' off;
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 600;
+
+		font-size: 2.29vw;
+		line-height: 2.86vw;
+	}
+}
+
+@media (width >= 1200px) {
+	.caption_regular {
+		font-feature-settings: 'liga' off, 'clig' off;
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 400;
+
+		font-size: 20px;
+		line-height: 28px;
+	}
+
+	.caption_bold {
+		font-feature-settings: 'liga' off, 'clig' off;
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 600;
+
+		font-size: 20px;
+		line-height: 28px;
+	}
+}

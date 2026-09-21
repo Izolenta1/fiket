@@ -1,0 +1,29 @@
+.increase_hover_anim {
+	display: block;
+	transition: transform 0.4s ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+	.increase_hover_anim {
+		will-change: transform;
+	}
+
+	.increase_hover_anim:hover {
+		transform: scale(1.05);
+	}
+}
+
+.decrease_hover_anim {
+	display: block;
+	transition: transform 0.4s ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+	.decrease_hover_anim {
+		will-change: transform;
+	}
+
+	.decrease_hover_anim:hover {
+		transform: scale(0.95);
+	}
+}
